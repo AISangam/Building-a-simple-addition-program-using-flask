@@ -10,8 +10,8 @@ def add():
 
   mydb = mysql.connector.connect(
     host="localhost",
-    user="datascience",
-    passwd="aisangam",
+    user="xxxx",
+    passwd="xxxxx",
     database="addition"
   )
   print("Connection is established...")
