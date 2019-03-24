@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--  Defines an HTML document -->
+<html>
+ <!-- Defines information about the document -->
+<head>
+    <!-- define title of document  to be displayed -->
+	<title> Display Form </title>
+</head>
+<body >
+<!--in post method data is not shown in URL-->
+<!--in post method data is shown in URL-->
+<form action="http://localhost:5000/add" method="POST" >
+<table>
+    <tr>
+        <td>
+            Please enter the first Number for addition:
+        </td>
+        <td>
+            <input type="text" name="first number"  required>
+        </td>
+        </tr>
+    <tr>
+        <td>
+            Please enter the second Number for addition:
+        </td>
+        <td>
+            <input type="text" name="second number" required>
+        </td>
+    </tr>
+
+    <tr>
+		<td>
+			<input type="submit" value="submit" >
+		</td>
+	</tr>
+
+</table>
+</form>
+</body>
+</html>
+
+
+
